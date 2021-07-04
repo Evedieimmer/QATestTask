@@ -1,0 +1,3 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Sun Jul 04 09:55:04 GMT+07:00 2021","Sun Jul 04 09:55:08 GMT+07:00 2021","3142","","APITest","","APITest","Delete pet from store test","Проверка удаления питомца по ID","описание теста"
+"passed","Sun Jul 04 09:55:00 GMT+07:00 2021","Sun Jul 04 09:55:04 GMT+07:00 2021","4109","","APITest","","APITest","Add new pet to store test","Проверка добавления питомца","описание теста"

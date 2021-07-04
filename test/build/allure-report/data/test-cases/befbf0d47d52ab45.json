@@ -1,0 +1,61 @@
+{
+  "uid" : "befbf0d47d52ab45",
+  "name" : "Проверка удаления питомца по ID",
+  "fullName" : "APITest.Delete pet from store test",
+  "historyId" : "6834c48ed05e9e0b32d069ea3adb1b74",
+  "time" : {
+    "start" : 1625367304924,
+    "stop" : 1625367308066,
+    "duration" : 3142
+  },
+  "description" : "описание теста",
+  "descriptionHtml" : "<p>описание теста</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "удаление питомца"
+  }, {
+    "name" : "host",
+    "value" : "WIN-NJK75T1QS28"
+  }, {
+    "name" : "thread",
+    "value" : "9960@WIN-NJK75T1QS28.Test worker(15)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "APITest"
+  }, {
+    "name" : "testClass",
+    "value" : "APITest"
+  }, {
+    "name" : "testMethod",
+    "value" : "Delete pet from store test"
+  }, {
+    "name" : "suite",
+    "value" : "APITest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "befbf0d47d52ab45.json",
+  "parameterValues" : [ ]
+}

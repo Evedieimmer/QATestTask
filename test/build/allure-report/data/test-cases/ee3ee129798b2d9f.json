@@ -1,0 +1,61 @@
+{
+  "uid" : "ee3ee129798b2d9f",
+  "name" : "Проверка добавления питомца",
+  "fullName" : "APITest.Add new pet to store test",
+  "historyId" : "bfef477d8dffff12b79c3659dd68679a",
+  "time" : {
+    "start" : 1625367300794,
+    "stop" : 1625367304903,
+    "duration" : 4109
+  },
+  "description" : "описание теста",
+  "descriptionHtml" : "<p>описание теста</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "добавление питомца"
+  }, {
+    "name" : "host",
+    "value" : "WIN-NJK75T1QS28"
+  }, {
+    "name" : "thread",
+    "value" : "9960@WIN-NJK75T1QS28.Test worker(15)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "APITest"
+  }, {
+    "name" : "testClass",
+    "value" : "APITest"
+  }, {
+    "name" : "testMethod",
+    "value" : "Add new pet to store test"
+  }, {
+    "name" : "suite",
+    "value" : "APITest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "ee3ee129798b2d9f.json",
+  "parameterValues" : [ ]
+}

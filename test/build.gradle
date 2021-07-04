@@ -1,0 +1,57 @@
+plugins {
+    id 'java'
+    id 'org.jetbrains.kotlin.jvm' version '1.4.10'
+    id 'io.qameta.allure' version '2.6.0'
+}
+
+group 'org.example'
+version '1.0-SNAPSHOT'
+def allureVersion = '2.9.0'
+def junitVersion = '5.1.0'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation "org.jetbrains.kotlin:kotlin-stdlib"
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+    testCompile "io.springfox:springfox-swagger2:2.7.0"
+    testCompile "io.springfox:springfox-swagger-ui:2.7.0"
+    testImplementation("org.junit.jupiter:junit-jupiter-api:$junitVersion")
+    testRuntimeOnly("org.junit.jupiter:junit-jupiter-engine:$junitVersion")
+    testCompile('org.assertj:assertj-core:3.11.1')
+    testRuntimeOnly("io.qameta.allure:allure-junit5:$allureVersion")
+    testCompile("io.qameta.allure:allure-java-commons:$allureVersion")
+    testCompile("io.qameta.allure:allure-attachments:$allureVersion")
+    testCompile("io.qameta.allure:allure-generator:$allureVersion")
+    testCompile("io.qameta.allure:allure-httpclient:$allureVersion")
+    testCompile 'io.rest-assured:rest-assured:3.0.3'
+    compile "org.slf4j:slf4j-simple:1.7.9"
+}
+
+allure {
+    autoconfigure = true
+    version = '2.9.0'
+    clean = true
+    reportDir = file("$projectDir/build/allure-report")
+    resultsDir = file("$projectDir/build/allure-results")
+    downloadLink = 'https://repo.maven.apache.org/maven2/io/qameta/allure/allure-commandline/2.10.0/allure-commandline-2.10.0.zip'
+}
+
+test {
+    useJUnitPlatform()
+    systemProperty 'allure.results.directory', "$projectDir/build/allure-results"
+    testLogging {
+        events "PASSED", "FAILED", "SKIPPED", "STANDARD_OUT", "STANDARD_ERROR"
+    }
+    scanForTestClasses = false
+    testLogging.showStandardStreams = true
+    dependsOn 'cleanTest'
+}
+
+task generateAllureReport(type: Exec) {
+    commandLine 'cmd', '/c', 'allure', 'generate', '-c', 'generate build/allure-results'
+}
+
+gradle.startParameter.continueOnFailure = true

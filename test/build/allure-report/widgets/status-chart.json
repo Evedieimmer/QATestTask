@@ -1,0 +1,21 @@
+[ {
+  "uid" : "befbf0d47d52ab45",
+  "name" : "Проверка удаления питомца по ID",
+  "time" : {
+    "start" : 1625367304924,
+    "stop" : 1625367308066,
+    "duration" : 3142
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ee3ee129798b2d9f",
+  "name" : "Проверка добавления питомца",
+  "time" : {
+    "start" : 1625367300794,
+    "stop" : 1625367304903,
+    "duration" : 4109
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

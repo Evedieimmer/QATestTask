@@ -1,0 +1,39 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "добавление питомца",
+    "children" : [ {
+      "name" : "Проверка добавления питомца",
+      "uid" : "ee3ee129798b2d9f",
+      "parentUid" : "42c1dcb26cbf8d17791a1075ede31b05",
+      "status" : "passed",
+      "time" : {
+        "start" : 1625367300794,
+        "stop" : 1625367304903,
+        "duration" : 4109
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "42c1dcb26cbf8d17791a1075ede31b05"
+  }, {
+    "name" : "удаление питомца",
+    "children" : [ {
+      "name" : "Проверка удаления питомца по ID",
+      "uid" : "befbf0d47d52ab45",
+      "parentUid" : "0a20c03218c2c33e990198e7480a9547",
+      "status" : "passed",
+      "time" : {
+        "start" : 1625367304924,
+        "stop" : 1625367308066,
+        "duration" : 3142
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "0a20c03218c2c33e990198e7480a9547"
+  } ]
+}

@@ -1,0 +1,39 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "WIN-NJK75T1QS28",
+    "children" : [ {
+      "name" : "9960@WIN-NJK75T1QS28.Test worker(15)",
+      "children" : [ {
+        "name" : "Проверка удаления питомца по ID",
+        "uid" : "befbf0d47d52ab45",
+        "parentUid" : "9c63db3b71e818e9fc9f5c3c53477f48",
+        "status" : "passed",
+        "time" : {
+          "start" : 1625367304924,
+          "stop" : 1625367308066,
+          "duration" : 3142
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Проверка добавления питомца",
+        "uid" : "ee3ee129798b2d9f",
+        "parentUid" : "9c63db3b71e818e9fc9f5c3c53477f48",
+        "status" : "passed",
+        "time" : {
+          "start" : 1625367300794,
+          "stop" : 1625367304903,
+          "duration" : 4109
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "9c63db3b71e818e9fc9f5c3c53477f48"
+    } ],
+    "uid" : "5f5e3e4f4d3c4908ec3c24d3c655fd1d"
+  } ]
+}
